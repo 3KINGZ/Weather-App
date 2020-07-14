@@ -20,7 +20,7 @@ function App() {
   useEffect(() => {
     axios
       .get(
-        `http://api.openweathermap.org/data/2.5/weather?q=${
+        `https://api.openweathermap.org/data/2.5/weather?q=${
           search ? search : "lagos"
         }&appid=e404b8ce090a29748e8a5bd734a45781`
       )
