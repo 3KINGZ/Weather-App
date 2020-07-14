@@ -1,0 +1,61 @@
+.weather-card {
+  border: 1px solid rgba(20, 47, 65, 0.733);
+  margin-top: 5%;
+  width: 80%;
+  padding: 2.2%;
+  background-color: rgb(48, 68, 87);
+  border-radius: 5px;
+}
+
+.main-weather {
+  display: flex;
+  flex-direction: row;
+  font-size: 2em;
+}
+
+.search-text {
+  text-transform: capitalize;
+}
+
+img {
+  display: block;
+  width: 10%;
+}
+
+.main-weather > div {
+  margin-right: 2%;
+}
+
+.date {
+  margin-top: 2%;
+  display: flex;
+  flex-direction: row;
+  font-size: 1em;
+}
+
+.date > div {
+  margin-right: 1.5%;
+}
+
+.week-forecast {
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+}
+
+.week-forecast {
+  margin-right: 1%;
+  width: 12%;
+}
+
+.title {
+  color: wheat;
+}
+
+.main-main-weather {
+  text-transform: uppercase;
+}
+
+.main-description {
+  text-transform: uppercase;
+}
